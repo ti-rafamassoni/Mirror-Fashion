@@ -6,6 +6,15 @@ body {
     width: 1450px;
 }
 
+a {
+        text-decoration: none;
+        color: black;
+}
+
+header {
+    display: flex;
+}
+
 #about_h1{
     background-image: url(img/sobre-background.jpg);
     padding: 10px;
