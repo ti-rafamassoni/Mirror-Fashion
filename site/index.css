@@ -1,0 +1,206 @@
+body {
+    width: 940px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: relative;
+    height: 100px;
+    width: 940px;
+}
+
+.sacola-compras {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right: 0;
+    font-size: 12px;
+    width: 160px;
+}
+
+.sacola-compras img {
+    float: right;
+}
+
+.menu-inicial {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    margin-right: 0px;
+}
+
+.menu-inicial ul li {
+    display: inline;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.pagina-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    width: 940px;
+}
+
+.busca {
+    background-color: #dddddd;
+    width: 225px;
+    padding: 5px;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.busca label {
+
+    margin: 0px 5px 0px 5px;
+    
+}
+
+.busca input {
+    width: 170px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.busca img {
+    margin-left: 4px;
+}
+
+.menu-produtos ul{
+    width: 225px;
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+.menu-produtos ul li {
+    margin-bottom: 7px;
+    margin-left: 0px;
+}
+
+.border {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.titulo-menu {
+    background-color: #dddddd;
+    width: 205px;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.menu-produtos ul li :first-child {
+    margin-left: 10px;
+}   
+
+.barra-final-menu {
+    height: 10px;
+    width: 225px;
+    border-radius: 2px;
+    margin-top: 0px;
+    background-color: #dddddd;
+}
+
+.banner-destaque {
+    position: absolute;
+    left: 240px; 
+}
+
+.boxes-produtos {
+    display: flex;
+    gap: 10px;
+    margin-top: 120px;
+    width: 940px;
+}
+.box {
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;  
+    width: 465px;
+    height: 465px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    margin-right: 0px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.box ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0px;
+ }
+
+ .box h2 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin: 0px;
+    font-size: 22px;
+}
+
+.box ul li {
+    margin-top: 10px;
+}
+
+.novidades {
+   background-image: linear-gradient(135deg, rgb(250, 202, 236) 0, rgb(241, 136, 224));
+   box-shadow: 1px 1px 1px 1px #bbbbbb;
+}
+
+.mais-vendidos {
+    background-image: linear-gradient(135deg, rgb(209, 181, 247) 0, rgb(148, 116, 238));
+    box-shadow: 1px 1px 1px 1px #bbbbbb;
+}
+
+.mais-produtos {
+    position: absolute;
+    background-color: rgb(39, 39, 39);
+    width: 120px;
+    height: 30px;
+    bottom: 20px;
+    right: 40px;
+    color: white;
+    text-align: center;
+}
+
+footer  {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    margin-top: 8px;
+    width: 940px;
+    height: 100px;
+    background-image: url(img/fundo-rodape.png);
+    border-radius: 3px;
+}
+
+footer a {
+    margin-right: 20px;
+}
+
+.logo-rodape {
+    position: absolute;
+    margin-right: 770px;
+}
