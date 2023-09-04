@@ -40,26 +40,49 @@ header {
     margin-left: 10px;
 }
 
+.central {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 #about_h1 {
     background-image: url(img/sobre-background.jpg);
     padding: 10px;
 }
 
-figcaption {
+#centrodistribuicao {
     font-style: italic;
     margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #efefef;
+    border: 1px solid #cccccc;
+    width:550px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-figure {
+#familia_pelho {
+    float: right;
+    font-style: italic;
+    margin: 3px 10px 10px 10px;
     padding: 15px;
-    margin:30px;
     text-align: center;
     background-color: #efefef;
     border: 1px solid #cccccc;
 }
 
-#centrodistribuicao {
-    width:550px;
-    margin-left: auto;
-    margin-right: auto;
+p{
+    text-align: justify;
+    text-indent: 15px;
+}
+
+hr {
+    height: 1.5px;
+    width: 940px;
+    background-color: rgb(29, 29, 29);
+}
+
+h2 {
+    margin-bottom: -10px;
 }
