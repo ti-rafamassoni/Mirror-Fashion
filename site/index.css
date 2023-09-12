@@ -3,6 +3,8 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
+
 a {
     text-decoration: none;
     color: black;
@@ -203,4 +205,27 @@ footer a {
 .logo-rodape {
     position: absolute;
     margin-right: 770px;
+}
+
+h2::before {
+    content: '\f005';
+}
+
+li:hover {
+    text-decoration: underline;
+
+}
+
+.box li:hover {
+    transition: 0.5s;
+    rotate: 5deg;
+    box-shadow: 5px 5px 3px grey;
+    scale: 1.1;
+    background-color: white;
+}
+
+
+@media(max-width: 940px) { 
+     {width: 400px;
+            }
 }
